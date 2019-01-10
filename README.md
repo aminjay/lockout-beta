@@ -2,7 +2,7 @@
 # Lockout (BETA)
 <p align="center">
   <img src="./lockout-client/readme-src/ic_launcher.png" alt="[placeholder for Lockout logo]"
-       height="200">
+       height="100">
 </p>
 
 Lockout is currently in the process of being developed! It will be an entirely new way to focus and be mindful of your digital health in this new era of technology.
@@ -15,13 +15,7 @@ More on the direction the app is now headed, a user could set a morning motivati
 
 ## Screenshots
 
-![ss-1](./lockout-client/readme-src/ic_launcher.png "title-1") ![ss-2](image2.png "title-2")
-
-<p align="center">
-  <img src="./lockout-client/readme-src/ic_launcher.png" alt="[placeholder for Lockout logo]"
-       height="200">
-</p>
-
+![ss-1](./lockout-client/readme-src/ss-1.png) ![ss-2](image2.png "title-2")
 
 ## Stuff for Nerds
 
