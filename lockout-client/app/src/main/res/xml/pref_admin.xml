@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <Preference
+        android:summary="Add a custom item for users to buy"
+        android:title="Add a store item">
+        <intent
+            android:action="edu.iastate.cs.proj_309_vc_1.lockout2.SETTING_START_ACTIVITY"
+            android:targetPackage="edu.iastate.cs.proj_309_vc_1.lockout2"
+            android:targetClass="edu.iastate.cs.proj_309_vc_1.lockout2.GroupAdminActivity"/>
+    </Preference>
+
+    <Preference
+        android:summary="Manage everything"
+        android:title="Custom commands with admin privelege">
+        <intent
+            android:action="edu.iastate.cs.proj_309_vc_1.lockout2.SETTING_START_ACTIVITY"
+            android:targetPackage="edu.iastate.cs.proj_309_vc_1.lockout2"
+            android:targetClass="edu.iastate.cs.proj_309_vc_1.lockout2.GlobalAdminActivity"/>
+    </Preference>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:selectable="false"
+        android:key="admin_switch"
+        android:summary="Administration capability pulled from server. During development this will always be true."
+        android:title="Administration Status" />
+
+
+
+
+</PreferenceScreen>

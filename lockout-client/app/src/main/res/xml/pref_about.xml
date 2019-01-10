@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Preference
+        android:enabled="true"
+        android:key="manual_text"
+        android:title="Help and FAQ"
+        android:summary="Help and FAQ is coming soon. In the meantime, feel free to contact the support team from the main menu." />
+
+    <Preference
+        android:enabled="true"
+        android:key="about_text"
+        android:title="About the creators"
+        android:summary="This app was designed by Jay Amin, Andrew Koenen, Mark O'Meara, and Joshua Bill with the assistance of their mentor Vamsi Calpakkin and instructor Simanta Mitra. " />
+
+    <Preference
+        android:enabled="true"
+        android:key="privacy_text"
+        android:title="Privacy Policy"
+        android:summary="This app is still in development, so a full privacy policy isn't ready yet. However, we value our users' privacy highly, so no personal information will ever be collected without their explicit consent." />
+
+    <Preference
+        android:summary="Click here for in progress materials (only accessible through Iowa State University's local network or VPN). Materials and code will be uploaded soon."
+        android:title="Project Site, Code, and Materials">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://proj-309-vc-1.cs.iastate.edu"/>
+    </Preference>
+
+
+
+</PreferenceScreen>

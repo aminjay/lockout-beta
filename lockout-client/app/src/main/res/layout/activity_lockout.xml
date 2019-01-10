@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/alt"
+    android:fitsSystemWindows="true"
+    tools:context="edu.iastate.cs.proj_309_vc_1.lockout2.LockoutActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center">
+
+        <TextView
+            android:id="@+id/pointsDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+        <ProgressBar
+            android:id="@+id/progBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:max="60"
+            android:progress="0"
+            android:progressDrawable="@drawable/circular" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_leavelockout"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/accent"
+            android:textColor="@color/alt"
+            android:text="Exit Lockout Mode"
+            android:width="50dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

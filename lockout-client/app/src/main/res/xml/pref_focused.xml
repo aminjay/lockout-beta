@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <Preference android:title="Usage Access For Focused Lockout Mode"
+        android:summary="Click here and enable usage access for Lockout for Focused Lockout Mode to work properly.">
+        <intent android:action="android.settings.USAGE_ACCESS_SETTINGS" />
+    </Preference>
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="focused_lockout_toggle"
+        android:summary="Enable this to super charge your lockout sessions. Choose distracting apps to block, feel more focused, and take your lockout sessions to a whole new level!"
+        android:title="Focused Lockout Mode" />
+
+
+
+    <Preference
+    android:summary="Select apps for focused lockout mode"
+    android:title="Focused Lockout Mode App Selection">
+    <intent
+        android:action="edu.iastate.cs.proj_309_vc_1.lockout2.SETTING_START_ACTIVITY"
+        android:targetPackage="edu.iastate.cs.proj_309_vc_1.lockout2"
+        android:targetClass="edu.iastate.cs.proj_309_vc_1.lockout2.LockerActivity"/>
+</Preference>
+
+</PreferenceScreen>

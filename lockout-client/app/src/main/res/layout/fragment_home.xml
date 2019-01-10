@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.iastate.cs.proj_309_vc_1.lockout2.HomeFragment">
+
+    <!--<TextView-->
+        <!--android:id="@+id/homeSplash"-->
+        <!--android:layout_width="match_parent"-->
+
+        <!--android:textColor="@color/primary"-->
+
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_marginTop="80dp"-->
+
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="Welcome, \nare you ready \nto focus?"-->
+        <!--android:autoSizeTextType="uniform"-->
+        <!--/>-->
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_lockout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+
+
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/accent"
+        android:layout_marginBottom="37dp"
+
+
+        android:textSize="35dp"
+
+        android:layout_gravity="center"
+        android:text="Welcome, \nclick anywhere \nto start \nlockout mode"/>
+
+
+
+
+
+</FrameLayout>

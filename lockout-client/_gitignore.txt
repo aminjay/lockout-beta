@@ -1,0 +1,36 @@
+# Application build files
+/*/build/
+
+# Crash configuration files
+com_crashlytics_export_strings.xml
+
+# Local path and configuration files
+local.properties
+
+# Gradle generated filed
+.gradle/
+
+# Signed files
+.signing/
+
+# Specific configurations for my machine
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+*.iml
+
+# Misc hidden files that don't need to clutter git
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

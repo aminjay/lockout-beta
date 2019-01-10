@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Lockout</string>
+
+    <string name="splash_text">CURRENT POINTS: 5000</string>
+    <string name="action_home">Home</string>
+    <string name="action_social">Social</string>
+    <string name="action_store">Store</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_controls">Controls</string>
+
+    <string name="action_a">Settings</string>
+    <string name="action_b">Help</string>
+    <string name="action_c">Log out</string>
+
+    <string name="MAINLINK">http://proj-309-vc-1.cs.iastate.edu:8080</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- OnBoard Screen. -->
+
+    <string name="ob_header1">UNBEATABLE FOCUS</string>
+    <string name="ob_header2">DIVERSE COLLABORATION</string>
+    <string name="ob_header3">YOUR GOALS ARE OUR MISSION</string>
+
+    <string name="ob_get_started">GET STARTED</string>
+
+    <string name="ob_desc1">Lockout lets you focus on whats important while locking away the distractions</string>
+    <string name="ob_desc2">From comparing stats with a friend to earning rewards in your classes</string>
+    <string name="ob_desc3">From the group up, Lockout is designed to make your goals a reality. Good luck!</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>

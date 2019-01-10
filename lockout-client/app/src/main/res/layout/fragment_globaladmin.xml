@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.iastate.cs.proj_309_vc_1.lockout2.GlobalAdminFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="24dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:theme="@style/EditTextTheme"
+                android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_command"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextTheme"
+                    android:inputType="textNoSuggestions"
+                    android:hint="mainlink/[command to send]" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/Confirm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Submit Command"
+                android:backgroundTint="@color/primary"
+                android:textColor="@color/white"
+                android:textAppearance="@android:style/TextAppearance.Material.Button" />
+
+            <TextView
+            android:id="@+id/TEXT_STATUS_ID"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:scrollbars = "vertical"
+            android:layout_weight="1.0"
+                android:hint="Response will go here!"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

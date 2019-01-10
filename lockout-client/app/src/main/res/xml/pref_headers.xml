@@ -1,0 +1,25 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="edu.iastate.cs.proj_309_vc_1.lockout2.SettingsActivity$AdminPreferenceFragment"
+        android:icon="@drawable/ic_face_black_24dp"
+        android:title="Administration" />
+
+    <header
+        android:fragment="edu.iastate.cs.proj_309_vc_1.lockout2.SettingsActivity$NotificationsPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notifications" />
+
+    <header
+        android:fragment="edu.iastate.cs.proj_309_vc_1.lockout2.SettingsActivity$FocusedPreferenceFragment"
+        android:icon="@drawable/ic_lock_black_24dp"
+        android:title="Focused Lockout Mode" />
+
+    <header
+        android:fragment="edu.iastate.cs.proj_309_vc_1.lockout2.SettingsActivity$AboutPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="About" />
+
+</preference-headers>

@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="edu.iastate.cs.proj_309_vc_1.lockout2.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+
+        android:textColor="@color/primary"
+
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="username"
+        android:autoSizeTextType="uniform"
+        />
+
+    <TextView
+        android:id="@+id/profileSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Username"
+        android:fontFamily="sans-serif"
+
+        android:textColor="@color/primary"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+    <TextView
+        android:id="@+id/totalpts"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+
+        android:layout_below="@+id/Username"
+        android:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/boughtItems"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+
+        android:layout_below="@+id/totalpts"
+        android:autoSizeTextType="uniform"
+        android:text="BOUGHT ITEMS:" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView9"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBaseline="@+id/totalpts"-->
+        <!--android:layout_alignBottom="@+id/totalpts"-->
+        <!--android:layout_marginStart="13dp"-->
+        <!--android:layout_toEndOf="@+id/totalpts"-->
+        <!--android:text="Avaialable Pts" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/availablpts"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/textView9"-->
+        <!--android:layout_marginStart="11dp"-->
+        <!--android:layout_toEndOf="@+id/textView9"-->
+        <!--android:text="0" />-->
+
+    <ScrollView
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/boughtItems"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView11"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textView9"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="18dp"-->
+        <!--android:text="Bought Items" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/logo" />-->
+
+</RelativeLayout>

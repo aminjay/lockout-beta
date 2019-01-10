@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="notif_switch"
+        android:summary="Enable this to be reminded daily to stay focused and motivate yourself! Clicking the notification will take you directly to lockout!"
+        android:title="Enable Motivational Notification" />
+
+
+    <Preference
+        android:enabled="true"
+        android:key="note_text"
+        android:title="Note:"
+        android:summary="For your convenience, test notifications may be displayed when you utilize this page!" />
+
+
+    <EditTextPreference
+        android:defaultValue="Remember to stay focused today! You know you love feeling great all day."
+        android:inputType="textMultiLine"
+        android:key="notif_text"
+        android:selectAllOnFocus="true"
+        android:scrollbars="vertical"
+        android:gravity="top|left"
+        android:title="Notification Message" />
+
+
+
+    <EditTextPreference
+        android:defaultValue="15:35"
+        android:inputType="time"
+        android:key="notif_time"
+        android:selectAllOnFocus="true"
+        android:maxLines="1"
+        android:title="Notification Time (24 HH:MM)" />
+
+
+
+
+</PreferenceScreen>
