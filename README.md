@@ -15,7 +15,14 @@ More on the direction the app is now headed, a user could set a morning motivati
 
 ## Screenshots
 
-<img src="./lockout-client/readme-src/ss-1.png" alt="image not found :(" width="50">
+<img src="./lockout-client/readme-src/ss-1.png" alt="image not found :(" width="200">
+<img src="./lockout-client/readme-src/ss-2.png" alt="image not found :(" width="200">
+<img src="./lockout-client/readme-src/ss-3.png" alt="image not found :(" width="200">
+<img src="./lockout-client/readme-src/ss-4.png" alt="image not found :(" width="200">
+<img src="./lockout-client/readme-src/ss-5.png" alt="image not found :(" width="200">
+<img src="./lockout-client/readme-src/ss-6.png" alt="image not found :(" width="200">
+<img src="./lockout-client/readme-src/ss-7.png" alt="image not found :(" width="200">
+<img src="./lockout-client/readme-src/ss-8.png" alt="image not found :(" width="200">
 
 ## Stuff for Nerds
 
