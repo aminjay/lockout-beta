@@ -15,7 +15,7 @@ More on the direction the app is now headed, a user could set a morning motivati
 
 ## Screenshots
 
-![ss-1](./lockout-client/readme-src/ss-1.png | width=20) ![ss-2](image2.png "title-2")
+<img src="./lockout-client/readme-src/ss-1.png" alt="image not found :(" width="50">
 
 ## Stuff for Nerds
 
